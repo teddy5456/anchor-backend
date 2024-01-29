@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  quantity: 1
+  price: 9.99
+  units_per_box: MyString
+  date_arrival: 2024-01-18
+
+two:
+  name: MyString
+  description: MyString
+  quantity: 1
+  price: 9.99
+  units_per_box: MyString
+  date_arrival: 2024-01-18
