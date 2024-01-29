@@ -13,6 +13,10 @@ Rails.application.routes.draw do
   get '/users/:id', to: 'users#show', as: 'user'
   get '/current_user', to: 'sessions#current_user'
   post '/logout', to: 'sessions#destroy', as: :logout
+
+  # config/routes.rb
+root 'home#index'
+
   
   resources :sales
   resources :users, only: [:index, :show, :create, :show]
